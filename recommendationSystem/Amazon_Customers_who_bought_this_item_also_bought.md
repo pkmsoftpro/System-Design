@@ -24,7 +24,7 @@ U_ik indicates user i's affinity to category k and P_kj indicates how much item 
 </p><p>If it is a new item, we can train a logistic regression model based on item feature for each category k and calculate the P vector for the new item.</p><p>
 </p><p>Multiplying P and U vector, we get the probability of a user who will purchase an item X. Return the list of items sorted by probability.</p></div>
 
-
+<pre>
 <div class="discuss-markdown-container"><p>
 This is a graph problem. Therefore, we need N x N space to represent the bi-directional graph. N being number of products there are. Say there are 4 products, A, B, C, D. Edges of the graph will represent number of buys relationship.<br>
 If a user buys product A with product B. Then in the graph, edges A to B and B to A will be incremented once. Similar situation if a user buys A, B, C together, that means 12 edges will need to be updated.<br>
@@ -35,3 +35,4 @@ Next, each node/product in the graph will have a min heap with a fixed size. Say
 getRecommendations(product) -&gt; # of recommendations<br>
 buy(list of products) -&gt; ((2^(# of products bought) - (# of products bought))) * log(# of recommendations) worst case for each product</p><p>
 </p><p>space complexity = # of products * # of products and # of products * size</p></div>
+</pre>
