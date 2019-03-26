@@ -13,7 +13,7 @@ Extra: use ZooKeeper to monitor the server and DB to transmission configuration 
 
 Solution 2:
 Create a HashMap for the unique words and their index, create a HashSet for the duplicated words.
-
+<pre>
 1- Iterate through words
 2- Check if in HashMap
 3- If in HashMap, remove from HashMap and add to HashSet.
@@ -22,7 +22,7 @@ Create a HashMap for the unique words and their index, create a HashSet for the 
 6- If not in HashSet, add to HashMap with index
 7- Iterate through HashMap
 8- Return entry with smallest value (index)
-
+</pre>
 Solution 3:
 This seems like a single pass two linked list approach makes the most sense to me.
 Here is a C# implementation, tested with very small string. Over all structure will be one linked list node for every unique word in the 'file' - variable in my case.
