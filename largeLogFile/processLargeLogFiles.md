@@ -130,3 +130,11 @@ Collection discussion:</p><p>
 <br>
 <strong>Solution 4:</strong>
 ELK stack
+
+<br>
+<strong>Solution 5:</strong><br>
+<div class="discuss-markdown-container"><p>this is basically question of taking small projection of large number of columns and storing it in sql database from a  log which also has large amount of data per day. There is question of how to store the data and then what kind of execution system to use for processing the data to land in its final destination of sql db.</p><p>
+</p><p>first of all use proper logging framework like log4j that can use appender to write to kafka topic.<br>
+This way each logging message goes into a kafka topic and kafka cluster has to be sized according to size of data being ingested (few terabytes per day).<br>
+Now you can have an execution engine like Presto or Spark read these messages from specific topic and do mapping operation to reduce number of columns from record to ingest into sql database .</p><p>
+</p><p>This way you are decoupling the storage of logging from processing /ingestion of log data to sql database.</p></div>
