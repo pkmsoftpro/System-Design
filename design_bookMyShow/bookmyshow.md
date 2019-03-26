@@ -1,3 +1,5 @@
+https://leetcode.com/discuss/interview-question/system-design/124803/Design-BookMyShow
+
 <p><strong>Describe how would you design an online ticketing system that sells movie tickets like BookMyShow.</strong></p><p>
 </p><p><strong>Where:</strong> I was asked this problem for an interview for Oracle.</p><p>
 </p><p><strong>Solution:</strong> I started with defining goals and requirement of the system. Few functional and non functional requirement are as follows -</p><p>
