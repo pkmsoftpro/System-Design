@@ -1,3 +1,5 @@
+https://leetcode.com/discuss/interview-question/system-design/124804/Design-Pastebin
+
 <div class="post-area__3YJL"><div class="root__3bcS"><div class="user-info__2b-x"><span class="name__2jm2"></span></div><div class="content-area__2vnF"><p>It was asked to me in <strong>Amazon</strong> interview for SDE-2 position.</p>
 	<p><strong>What is Pastebin?</strong><br>
 Pastebin web service enable users to store plain text over the network and generate unique URLs to access the uploaded data. It is also used to share data over the network quickly, as users would just need to pass the URL to let other users see it.</p><p>
