@@ -1,5 +1,5 @@
-<div class="post-area__3YJL"><div class="root__3bcS"><div class="user-info__2b-x"><span class="name__2jm2"></span><span class="reputation___jPr"><svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__3Su4"><path fill-rule="evenodd" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>109</span></div><div class="post-info__1K06"><p>Last Edit: October 20, 2018 2:35 PM</p><p class="view-count__dBuq">17.0K VIEWS</p></div></div><div class="content-area__2vnF"><div class="discuss-markdown-container"><p>It was asked to me in <strong>Amazon</strong> interview for SDE-2 position.</p><p>
-</p><p><strong>What is Pastebin?</strong><br>
+<div class="post-area__3YJL"><div class="root__3bcS"><div class="user-info__2b-x"><span class="name__2jm2"></span></div><div class="content-area__2vnF"><p>It was asked to me in <strong>Amazon</strong> interview for SDE-2 position.</p>
+	<p><strong>What is Pastebin?</strong><br>
 Pastebin web service enable users to store plain text over the network and generate unique URLs to access the uploaded data. It is also used to share data over the network quickly, as users would just need to pass the URL to let other users see it.</p><p>
 </p><p><strong>Functional Requirements:</strong></p><p>
 </p><ol>
