@@ -8,7 +8,7 @@ otherwise expensive to get or compute. Examples of such data include a result of
 to a database, a disk file or a report.
 
 Lets look at creating and using a simple thread-safe Java in-memory cache.
-Here are the characteristic of the program CrunchifyInMemoryCache.java.
+Here are the characteristic of the program InMemoryCache.java.
 
     
     **Items will expire based on a time to live period.
