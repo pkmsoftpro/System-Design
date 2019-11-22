@@ -13,9 +13,6 @@ import java.util.ArrayList;
 * <p>
 * This class is thread-safe. All methods of this class are synchronized.
 *
-* <p>
-* Author: Christian d'Heureuse, Inventec Informatik AG, Zurich, Switzerland<br>
-* Multi-licensed: EPL / LGPL / GPL / AL / BSD.
 */
 public class LRUCache<K,V> {
 
