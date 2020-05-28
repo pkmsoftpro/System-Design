@@ -489,3 +489,33 @@ Shortest Path:
 https://leetcode.com/problems/network-delay-time/
 
 Please correct the approach/solution if you find anything wrong.
+
+Graph Related Problems
+1. Surrounded Regions
+2. Number of Islands
+3. Course Schedule II
+4. Evaluate Division
+5. 01 Matrix
+6. Friend Circles
+7. Redundant Connection
+8. Employee Importance
+9. Max Area of Island
+10. Accounts Merge
+11. Flood Fill
+12. Network Delay Time
+13. Is Graph Bipartite?
+14. Find Eventual Safe States
+15. Keys and Rooms
+16. Possible Bipartition
+17. Most Stones Removed with Same Row or Column
+18. Regions Cut By Slashes
+19. Satisfiability of Equality Equations
+20. Rotting Oranges
+21. Find the Town Judge
+22. Number of Enclaves
+23. As Far from Land as Possible
+24. Shortest Path in Binary Matrix
+25. Number of Closed Islands
+26. Number of Operations to Make Network Connected
+27. Find the City With the Smallest Number of Neighbors at a Threshold Distance
+28. Time Needed to Inform All Employees
